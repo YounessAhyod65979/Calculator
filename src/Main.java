@@ -2,24 +2,24 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        float firstNumberBielecki,secondNumberBielecki,sum,difference, product, quotient;
+        float firstNumberAhyod,secondNumberAhyod,sum,difference, product, quotient;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the first number:(and press Enter)");
-        firstNumberBielecki = scanner.nextFloat();
+        firstNumberAhyod = scanner.nextFloat();
 
         System.out.println("Enter the second number:(and press Enter)");
-        secondNumberBielecki = scanner.nextFloat();
+        secondNumberAhyod = scanner.nextFloat();
 
 
-        sum = firstNumberBielecki + secondNumberBielecki;
+        sum = firstNumberAhyod + secondNumberAhyod;
 
-        difference = firstNumberBielecki - secondNumberBielecki;
+        difference = firstNumberAhyod - secondNumberAhyod;
 
-        product = firstNumberBielecki * secondNumberBielecki;
+        product = firstNumberAhyod * secondNumberAhyod ;
 
-        quotient = firstNumberBielecki / secondNumberBielecki;
+        quotient = firstNumberAhyod / secondNumberAhyod;
 
         System.out.printf("Sum: %.2f\n", sum);
 
